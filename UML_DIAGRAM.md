@@ -5,7 +5,7 @@ classDiagram
     direction TB
 
     class Product {
-        <>
+        <<interface>>
         +String productId
         +String name
         +double price
@@ -39,7 +39,7 @@ classDiagram
     }
 
     class Payment {
-        <>
+        <<interface>>
         +pay()
     }
 
